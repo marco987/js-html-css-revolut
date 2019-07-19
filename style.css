@@ -59,9 +59,16 @@ header {
 
   /* Menù dropdown */
 .drop {
+  display: none;
   position: absolute;
-  top: 20px;
+  top: 30px;
+  left: -20px;
+  white-space: nowrap;
   border: solid 1px red;
+}
+
+.drop a {
+  margin: 10px;
 }
 
 

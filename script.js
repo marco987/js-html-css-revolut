@@ -2,10 +2,9 @@
 
 $(document).ready(function(){
 
-// Scrivere codice qui
-
-
-
+$(".menu > a").click(function(){
+  $(".drop").toggle(500);
+});
 
 
 
